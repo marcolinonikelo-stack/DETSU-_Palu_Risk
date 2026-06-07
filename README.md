@@ -19,4 +19,4 @@
 - [ ] v3.0 : Modèle Machine Learning
 
 **Auteur** : Marc | Lycée 1ère C, Lomé, Togo 
-**Contact** : Objectif Bourse GKS KAIST 2029# 
+**Contact** : Objectif Bourse GKS KAIST 2029
