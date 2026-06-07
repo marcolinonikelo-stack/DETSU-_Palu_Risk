@@ -1,0 +1,23 @@
+# DETSU v1.1 : Risque Palu avec Température
+print("=== DETSU Palu Risk 2025 v1.1 ===")
+
+nom_quartier = input("Ton quartier à Lomé : ")
+pluie_mm = int(input("Pluie ce mois en mm : "))
+temp_c = int(input("Température moyenne °C : "))
+
+# Logique : Chaleur + Pluie = Moustiques fous
+if pluie_mm > 150 and temp_c > 25:
+    risque = "TRÈS ÉLEVÉ 🔴🔴"
+    conseil = "URGENCE : Moustiquaire + Éliminer eaux stagnantes"
+elif pluie_mm > 80 or temp_c > 28:
+    risque = "ÉLEVÉ 🔴" 
+    conseil = "Dormir sous moustiquaire"
+else:
+    risque = "FAIBLE 🟢"
+    conseil = "Restez vigilant"
+
+print(f"\nQuartier : {nom_quartier}")
+print(f"Pluie : {pluie_mm}mm | Temp : {temp_c}°C")
+print(f"Risque Palu : {risque}")
+print(f"Conseil DETSU : {conseil}")
+print("\nProjet DETSU Togo - Objectif KAIST 2029")
